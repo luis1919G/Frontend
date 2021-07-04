@@ -1,0 +1,238 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* banner superior */
+.banner {
+    background-color: black;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tituloChiquito {
+    padding: 0px 150px;
+}
+
+.idiomas {
+    float: right;
+    padding: 0px 10px;
+}
+
+/*header */
+
+#barraNavegacion {
+    padding-left: 100px;
+    background-color: #F0A83E;
+    height: 100px;
+    vertical-align: middle;
+    line-height: 100px;
+}
+.logoHeader {
+    width: 200px;
+    height: 150px;
+    display: inline;
+}
+
+.marron {
+    color: #3C2313;
+    font-size: 20px;
+    font-weight: 900;
+}
+.blanco {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 900;
+}
+.naranja {
+    color: #F0A83E;
+    font-size: 20px;
+    font-weight: 900;
+}
+#botonera {
+    float: right;
+}
+
+#botonera a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+}
+
+.fa-paw {
+    padding: 0px 10px;
+}
+
+/* header banner grande de comedero */
+
+#bannerGrande {
+    background-image: url(imagen/bannerGrande.png);
+    height: 530px;
+    background-size: contain;
+}
+
+#comederos {
+    float: right;
+    margin: 200px 20px;
+    text-align: center;
+}
+
+#comederos h3 {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px 30px;
+}
+
+button {
+    background-color: #F0A83E;
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+/*seccion productos */
+
+.cabecera {
+    text-align: center;
+}
+
+.cabecera img {
+    margin-left: 32%;
+    margin-top: 20px;
+
+}
+
+.cabecera h2 {
+    font-size: 35px;
+    color: rgb(61, 35, 1);
+}
+
+#productos a {
+    padding: 10px 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+.productoPrincipal {
+    margin-top: 50px;
+    text-align: center;
+    width: 33%;
+    float: left;
+}
+
+.productoPrincipal h4 {
+    font-size: 20px;
+}
+
+.productoPrincipal h5 {
+    color: rgb(184, 120, 3);
+    font-size: 20px;
+}
+
+/* formulario de contacto */
+#formulario {
+    line-height: 300px;
+    text-align: center;
+    height: 300px;
+    background-color: gray;
+    clear: left;
+}
+
+/*pie de pagina */
+
+.newsletter {
+    height: 100px;
+    background-color: #F0A83E;
+    line-height: 100px;
+}
+
+.newsletter span {
+    margin: 0px 35% 0px 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.botonSuscripcion {
+    background-color:rgb(61, 35, 1);
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+.newsletter input {
+    width: 300px;
+    height: 60px;
+    border-radius: 20px;
+    border-style: none;
+    margin-right: 20px;
+}
+
+#section_info {
+    background-color: rgb(61, 35, 1);
+    display: flex;
+    flex-direction: column;
+}
+.informacionPuntual {
+    display: flex;
+    padding: 20px 50px;
+    color: white;
+
+}
+
+.informacionPuntual div img {
+    height: 100px;
+    margin-right: 30px;
+}
+.informacionPuntual div h3 {
+    margin-bottom: 0px;
+    font-size: 25px;
+}
+.informacionPuntual div p {
+    margin-top: 0px;
+    font-size: 15px;
+    color: #8A8787;
+}
+.logoFooter {
+    position: absolute;
+    left: 1000px;
+    line-height: 450px;
+}
+
+.derechos {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 2px;
+
+}
+.btn-flotante {
+    text-decoration: none;
+	font-size: 16px; 
+	color: whitesmoke; 
+	border-radius: 10px; 
+	background-color: rgb(71, 70, 70);
+	padding: 18px 30px;
+	position: fixed;
+    float: left;
+	bottom: 40px;
+	left: 45%;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+.btn-flotante:hover {
+	background-color: #131444; /* Color de fondo al pasar el cursor */
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+
+}

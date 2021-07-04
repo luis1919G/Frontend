@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto', sans-serif;
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+    
+header{
+    height: 100px;
+    background-color: #222222;
+}
+main{
+    display: flex;
+justify-content: space-between;
+margin: 30px 0px;
+}
+image{
+    height: 80px;
+}
+.menuBar{
+margin-right: 50px;
+float: right;
+height: 100%;
+width: 350px;
+}
+.menuBar nav {
+    display: flex;
+justify-content: space-between;
+line-height: 100px;
+}
+ a{
+    text-decoration: none;
+    color: white;
+}
+.Container{
+margin: 30px 30px;
+width: 45%;
+height: 400px;
+background-image: url(imagen/domicilio.jpg);
+background-size: cover;
+border-radius: 5px;
+}
+.Container h2{
+    color: red;
+padding: 25px 20px;
+font-size: 30px;
+}
+span{
+    color: black;
+}
+.informacion{
+    margin: 30px 30px;
+width: 45%;
+height: 400px;
+border-radius: 5px;
+}
+.informacion h2{
+    color: red;
+padding: 25px 20px;
+font-size: 30px;
+}
+.informacion ol li{
+    font-size: 20px;
+padding: 5px;
+margin-left: 10px;
+font-weight: bolder;
+}
+.informacion img{
+    position: relative;
+left: 350px;
+bottom: 150px;
+}
+.pizas h3{
+    padding: 25px 20px;
+font-size: 30px;
+}
+footer{
+    background-color: #222222;
+    position: relative;
+}
+.menu_f{
+    margin-right: 50px;
+height: 100%;
+width: 100px;
+}
+.menu_f nav{
+    display: flex;
+flex-direction: column;
+padding: 20px 0px;
+}
+.menu_f nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+footer img{
+    position: absolute;
+    left: calc(50% - 2.88px/2 + 322.27px);
+top: 70px;
+}
